@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+// --- MELHORIA 1: Importar o tema padrão ---
+import defaultTheme from 'tailwindcss/defaultTheme';
 
 export default {
   darkMode: ["class"],
@@ -84,6 +86,10 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      
+      fontFamily: {
+        sans: ['"Nunito Sans"', ...defaultTheme.fontFamily.sans],
       },
     },
   },

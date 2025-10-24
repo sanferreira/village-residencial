@@ -13,7 +13,7 @@ const Contact = () => {
     <section id="contato" className="fade-in-section px-4 lg:px-10 py-20 bg-[hsl(var(--section-bg))]">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+          <h2 className="text-4xl md:text-4xl font-bold text-primary mb-6">
             Trabalhe Conosco
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
