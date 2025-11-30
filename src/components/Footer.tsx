@@ -106,8 +106,8 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-white/70 mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-white/70">Av. das Palmeiras, 120</p>
-                  <p className="text-white/70">Sumaré – SP</p>
+                  <p className="text-white/70">Rua Amador Bueno, 1000 — Centro</p>
+                  <p className="text-white/70">Ribeirão Preto — SP • CEP 14010-070</p>
                 </div>
               </li>
             </ul>
