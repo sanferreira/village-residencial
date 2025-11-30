@@ -22,12 +22,12 @@ const handleSubmit = (e) => {
 
   const numero = "5516991974141";
   const mensagem = 
-`🩵 *Solicitação de Visita - Residencial Village* 🩵\n\n` +
+`🩵 *Solicitação de Visita - Village Residencial Sênior* 🩵\n\n` +
 `👤 *Nome:* ${formData.nome}\n` +
 `📧 *Email:* ${formData.email}\n` +
 `📞 *Telefone:* ${formData.telefone}\n` +
 `🏙️ *Cidade:* ${formData.cidade}\n\n` +
-`Desejo agendar uma visita e saber mais sobre o Residencial Village.`;
+`Desejo agendar uma visita e saber mais sobre o Village Residencial Sênior.`;
 
   const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
   window.open(url, "_blank");
@@ -50,7 +50,7 @@ const handleSubmit = (e) => {
           {/* Texto principal */}
           <div className="text-left">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-white mb-6 section-title">
-              Bem-vindo ao Residencial Village
+              Bem-vindo ao Village Residencial Sênior
             </h1>
             <p className="text-base md:text-lg text-white/95 leading-relaxed max-w-2xl">
               Somos um lar repleto de histórias, onde cada detalhe é pensado

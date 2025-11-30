@@ -70,7 +70,7 @@ const Header = () => {
             <LogoIcon />
             {/* --- MELHORIA (SEMÂNTICA e CONSISTÊNCIA): <h1> -> <span> e nome corrigido --- */}
             <span className="text-xl font-bold leading-tight tracking-tight text-white">
-              Residencial Village
+              Village Residencial Sênior
             </span>
           </a>
 

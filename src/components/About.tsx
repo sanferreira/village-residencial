@@ -1,16 +1,16 @@
 import { MapPin, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import  img1  from "@/assets/55260982-1825-43b9-85c4-6b99062dc0ff.png"
-import  img2  from "@/assets/6385dce5-4463-4b39-940f-1d64cff05eb5.png"
-import  img3  from "@/assets/d9c8a05a-dd87-4b47-bf45-b7bb95be8256.png"
-import  img4  from "@/assets/e53ba0aa-56f5-4628-b8eb-16bfbf35f77b.png"
-import  img5  from "@/assets/fce94d6d-9082-445b-9362-8f941883fb71.png"
+import img1 from "@/assets/55260982-1825-43b9-85c4-6b99062dc0ff.png"
+import img2 from "@/assets/6385dce5-4463-4b39-940f-1d64cff05eb5.png"
+import img3 from "@/assets/d9c8a05a-dd87-4b47-bf45-b7bb95be8256.png"
+import img4 from "@/assets/e53ba0aa-56f5-4628-b8eb-16bfbf35f77b.png"
+import img5 from "@/assets/fce94d6d-9082-445b-9362-8f941883fb71.png"
 const About = () => {
   return (
     <section id="sobre" className="fade-in-section px-4 lg:px-10 py-20 bg-[#f4f0e8]">
       <div className="container mx-auto max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-12 items-start">
-          
+
           {/* --- CLASSE ADICIONADA AQUI --- */}
           <div className="about-col-1">
             <div className="mb-8">
@@ -18,7 +18,7 @@ const About = () => {
                 SOBRE NÓS
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4 section-title">
-                Residencial Village
+                Village Residencial Sênior
               </h2>
               <h3 className="text-2xl font-semibold text-foreground mb-6 section-title">
                 Um lar feito de carinho e cuidado
@@ -36,10 +36,15 @@ const About = () => {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
-                <div>
-                  <p className="text-foreground">Av. das Palmeiras, 120</p>
-                  <p className="text-foreground">Sumaré – SP</p>
+                <div className="space-y-1">
+                  <p className="text-foreground font-semibold">
+                    Rua Amador Bueno, 1000 — Centro
+                  </p>
+                  <p className="text-foreground">
+                    Ribeirão Preto — SP • CEP 14010-070
+                  </p>
                 </div>
+
               </li>
             </ul>
 
@@ -55,10 +60,10 @@ const About = () => {
             </a>
           </div>
 
-      
+
           <div className="space-y-4 about-col-2">
             <p className="text-foreground/80 leading-relaxed text-lg ">
-              No <strong>Residencial Village</strong>, nossa essência é o
+              No <strong>Village Residencial Sênior</strong>, nossa essência é o
               acolhimento. Mais do que um espaço, construímos um verdadeiro
               lar onde o carinho e o respeito são a base de tudo. Estamos
               localizados em um bairro tranquilo, com um amplo espaço externo
@@ -77,20 +82,20 @@ const About = () => {
         {/* Galeria */}
         {/* --- CLASSE ADICIONADA AQUI --- */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 about-gallery">
-          
+
           <div className="col-span-1 md:col-span-2 lg:col-span-2 row-span-2 rounded-lg shadow-md overflow-hidden group">
             <img
               src={img2}
-              alt="Área de convivência ampla e iluminada do Residencial Village"
+              alt="Área de convivência ampla e iluminada do Village Residencial Sênior"
               loading="lazy"
               className="w-full h-full min-h-[250px] object-cover transition-transform duration-500 group-hover:scale-105"
             />
           </div>
-          
+
           <div className="col-span-1  rounded-lg shadow-md overflow-hidden group">
             <img
               src={img1}
-              alt="Profissional de saúde cuidando de residente com zelo no Residencial Village"
+              alt="Profissional de saúde cuidando de residente com zelo no Village Residencial Sênior"
               loading="lazy"
               className="w-full h-[200px]   object-cover transition-transform duration-500 group-hover:scale-105"
             />
@@ -99,7 +104,7 @@ const About = () => {
           <div className="col-span-1 rounded-lg shadow-md overflow-hidden group">
             <img
               src={img3}
-              alt="Jardim e área externa do Residencial Village para banho de sol e relaxamento"
+              alt="Jardim e área externa do Village Residencial Sênior para banho de sol e relaxamento"
               loading="lazy"
               className="w-full h-[200px] object-cover transition-transform duration-500 group-hover:scale-105"
             />
@@ -108,7 +113,7 @@ const About = () => {
           <div className="col-span-1 rounded-lg shadow-md overflow-hidden group">
             <img
               src={img5}
-              alt="Quarto privativo confortável e bem iluminado no Residencial Village"
+              alt="Quarto privativo confortável e bem iluminado no Village Residencial Sênior"
               loading="lazy"
               className="w-full h-[200px] object-cover transition-transform duration-500 group-hover:scale-105"
             />
@@ -117,13 +122,13 @@ const About = () => {
           <div className="col-span-1 rounded-lg shadow-md overflow-hidden group">
             <img
               src={img4}
-              alt="Residente do Residencial Village sorrindo durante atividade de socialização"
+              alt="Residente do Village Residencial Sênior sorrindo durante atividade de socialização"
               loading="lazy"
               className="w-full h-[200px] object-cover transition-transform duration-500 group-hover:scale-105"
             />
           </div>
         </div>
-        
+
       </div>
     </section>
   );

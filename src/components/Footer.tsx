@@ -48,7 +48,7 @@ const Footer = () => {
             <a href="/" className="flex items-center gap-3 text-white mb-4">
               <LogoIcon />
               <span className="text-xl font-bold leading-tight text-white">
-                Residencial Village
+                Village Residencial Sênior
               </span>
             </a>
             <p className="text-white/70">
@@ -117,7 +117,7 @@ const Footer = () => {
 
         {/* --- MELHORIA: Layout do Sub-footer --- */}
         <div className="border-t border-white/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-white/50 text-sm gap-4">
-          <p>© {new Date().getFullYear()} Residencial Village. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Village Residencial Sênior. Todos os direitos reservados.</p>
           <nav className="flex gap-4">
             <a href="#" className="hover:text-white transition-colors">
               Política de Privacidade

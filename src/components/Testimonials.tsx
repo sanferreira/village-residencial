@@ -5,14 +5,14 @@ import { Button } from "@/components/ui/button";
 const testimonials = [
   {
     // --- MELHORIA (COPY): Nome corrigido ---
-    text: "Desde que minha mãe veio para o Residencial Village, ela está mais feliz e participativa. A equipe é incrivelmente atenciosa e o ambiente é maravilhoso. Sinto que ela está em casa.",
+    text: "Desde que minha mãe veio para o Village Residencial Sênior, ela está mais feliz e participativa. A equipe é incrivelmente atenciosa e o ambiente é maravilhoso. Sinto que ela está em casa.",
     name: "Maria S.",
     role: "Filha de Residente",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070",
   },
   {
     // --- MELHORIA (COPY): Nome corrigido ---
-    text: "Encontrei no Residencial Village a segurança e o cuidado que meu pai precisava. As instalações são impecáveis e as atividades diárias mantêm ele ativo e engajado.",
+    text: "Encontrei no Village Residencial Sênior a segurança e o cuidado que meu pai precisava. As instalações são impecáveis e as atividades diárias mantêm ele ativo e engajado.",
     name: "João P.",
     role: "Filho de Residente",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=2070",

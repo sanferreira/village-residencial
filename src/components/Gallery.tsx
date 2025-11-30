@@ -28,7 +28,7 @@ const Gallery = () => {
             Nossos Ambientes
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Cada espaço do Residencial Village é planejado para o conforto,
+            Cada espaço do Village Residencial Sênior é planejado para o conforto,
             segurança e a interação dos nossos residentes.
           </p>
         </div>

@@ -1,59 +1,52 @@
 import React from 'react';
-
+import image from "@/assets/d052dbc0-17f1-4fe8-a019-b95459b57da5.png"
 const HostSection = () => {
   return (
-    // Seção com o mesmo fundo bege/cinza-claro das outras
     <section id="anfitrioes" className="fade-in-section px-4 lg:px-10 py-20 bg-[#f4f0e8]">
       <div className="container mx-auto max-w-7xl">
-        
-        {/* Grid principal: 2 colunas, alinhadas ao centro */}
+
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          
-          {/* Coluna 1: Conteúdo de Texto */}
-          {/* --- CLASSE ADICIONADA AQUI --- */}
+
           <div className="host-text">
             <div className="mb-8">
               <p className="text-accent text-sm font-semibold uppercase tracking-wide mb-3 section-title">
-                Nossa Equipe
-              </p>
+                VILLAGE RESIDENCIAL              </p>
               <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 section-title">
-                Conheça quem está a frente do residencial
+                Onde o carinho encontra o cuidado
               </h2>
             </div>
-            
-            {/* -------------------------------------------------
-              IMPORTANTE: Troque este texto pelo real!
-              -------------------------------------------------
-            */}
+
             <div className="space-y-4 text-foreground/80 leading-relaxed text-lg">
               <p>
-                Sou <strong>Dra. Helena Moreira</strong>, médica geriatra e diretora 
-                do Residencial Village. Com mais de 15 anos de experiência 
-                em Instituições de Longa Permanência para Idosos (ILPIs), 
-                fundei o Village com uma missão clara: criar um ambiente 
-                que eu confiaria para minha própria família.
+                O Village Residencial nasceu do cuidado com a vida e do respeito à história de cada idoso.
+                Acreditamos que envelhecer é uma fase que merece atenção, carinho, dignidade e um lugar onde
+                seja possível se sentir verdadeiramente em casa.
               </p>
               <p>
-                Percebi que o verdadeiro cuidado vai além da medicina; 
-                ele está no carinho, na dedicação e no vínculo que criamos. 
-                Desde nossa inauguração, nosso principal diferencial é o 
-                cuidado humanizado e próximo que cultivamos com cada 
-                residente e seus familiares.
+                Aqui, cada residente é acolhido de forma única, com respeito à sua individualidade, rotina e
+                necessidades. Nosso propósito é oferecer mais do que assistência: é proporcionar segurança,
+                conforto, afeto e qualidade de vida, em um ambiente calmo, familiar e acolhedor.
+              </p>
+              <p>
+                Cuidamos com presença, empatia e dedicação, valorizando os pequenos gestos, a escuta atenta e os
+                vínculos criados no dia a dia. Nossa equipe atua com amor e responsabilidade, entendendo que o
+                cuidado verdadeiro vai muito além da técnica.
+              </p>
+              <p>
+                O Village Residencial é mais do que uma casa de repouso.
+                <br />
+                É um lar onde cada história importa e cada vida é cuidada com carinho.
               </p>
             </div>
+
           </div>
 
-          {/* Coluna 2: Imagem */}
-          {/* --- CLASSE ADICIONADA AQUI --- */}
+
           <div className="host-image">
-            {/* -------------------------------------------------
-              IMPORTANTE: Troque esta imagem pela real!
-              -------------------------------------------------
-            */}
             {/* O overflow-hidden aqui ajuda a "cortar" a imagem no parallax */}
             <img
-              src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2" // Imagem de exemplo
-              alt="Dra. Helena Moreira, diretora do Residencial Village" // Atualize o Alt Text
+              src={image} // Imagem de exemplo
+              alt=""
               loading="lazy"
               className="w-full h-auto rounded-lg shadow-lg object-cover"
             />
