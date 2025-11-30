@@ -29,8 +29,8 @@ const About = () => {
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                 <div>
-                  <a href="mailto:contato@residencialvillage.com.br" className="text-foreground hover:text-primary transition-colors">
-                    contato@residencialvillage.com.br
+                  <a href="mailto:residencialvillagerp@gmail.com" className="text-foreground hover:text-primary transition-colors">
+                    residencialvillagerp@gmail.com
                   </a>
                 </div>
               </li>
